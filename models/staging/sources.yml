@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_thelook
+    description: Raw data from thelook ecommerce
+    database: dbt-learning-477313
+    schema: raw_thelook
+    tables:
+      - name: orders
+        description: Orders table
+      - name: users
+        description: Users table
+      - name: products
+        description: Products table

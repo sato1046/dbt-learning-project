@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: thelook_ecommerce
+    database: dbt-learning-477313
+    schema: raw_thelook
+    description: "BigQuery Public Dataset - Eコマースサンプルデータ"
+
+    tables:
+      - name: orders
+        description: "注文データ"
+        columns:
+          - name: order_id
+            description: "注文ID（PK）"
+          - name: user_id
+            description: "顧客ID（FK）"
+          - name: status
+            description: "注文ステータス"
+          - name: gender
+            description: "顧客性別"
+          - name: created_at
+            description: "注文作成日時"
+          - name: shipped_at
+            description: "出荷日時"
+          - name: delivered_at
+            description: "配達完了日時"
+          - name: returned_at
+            description: "返品日時"
+          - name: num_of_item
+            description: "注文商品数"
+
+      - name: users
+        description: "顧客マスタ"
+
+      - name: products
+        description: "商品マスタ"

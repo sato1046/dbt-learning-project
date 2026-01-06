@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: Staging layer for users
+    columns:
+      - name: user_id
+        description: Unique user identifier
+        tests:
+          - unique
+          - not_null
+      - name: email
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: Staging layer for orders
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
