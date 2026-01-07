@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: user_orders_summary
+    description: User-level order summary for marketing analysis
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+      - name: total_orders
+        tests:
+          - not_null
+      
+  - name: product_sales_summary
+    description: Product-level sales summary
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
