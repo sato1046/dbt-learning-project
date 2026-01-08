@@ -1,0 +1,62 @@
+version: 2
+
+models:
+  - name: int_customer_rfm
+    description: RFM analysis for customer segmentation
+    columns:
+      - name: user_id
+        description: Unique customer identifier
+        tests:
+          - unique
+          - not_null
+      - name: recency_days
+        description: Days since last purchase
+        tests:
+          - not_null
+      - name: frequency
+        description: Number of purchases
+        tests:
+          - not_null
+      - name: monetary
+        description: Total purchase amount
+        tests:
+          - not_null
+      - name: r_score
+        description: Recency score (1-5)
+        tests:
+          - not_null
+      - name: f_score
+        description: Frequency score (1-5)
+        tests:
+          - not_null
+      - name: m_score
+        description: Monetary score (1-5)
+        tests:
+          - not_null
+      - name: customer_type
+        description: Customer segment
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['New', 'Existing', 'Loyal']
+
+  - name: int_product_performance
+    description: Product performance analysis with rankings
+    columns:
+      - name: product_id
+        description: Unique product identifier
+        tests:
+          - unique
+          - not_null
+      - name: total_orders
+        description: Number of orders containing this product
+        tests:
+          - not_null
+      - name: total_revenue
+        description: Total revenue from this product
+        tests:
+          - not_null
+      - name: revenue_rank_overall
+        description: Overall revenue ranking
+        tests:
+          - not_null
