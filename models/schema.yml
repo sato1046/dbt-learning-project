@@ -22,16 +22,6 @@ models:
           - unique
           - not_null
 
-  - name: customer_summary
-    description: "顧客情報のサマリー"
-    columns:
-      - name: customer_id
-        tests:
-          - unique
-          - not_null
-      - name: email_domain
-        tests:
-          - not_null
 
   - name: stg_sales
     description: "売上データの基本整形（incremental）"

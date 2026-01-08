@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: fct_sales_multidimensional
+    description: Multi-dimensional sales analysis fact table
+    columns:
+      - name: category
+        tests:
+          - accepted_values:
+              config:
+                severity: warn
+              arguments:
+                values: ['Electronics', 'Clothing', 'Home', 'All']
+      
+      - name: customer_segment
+        tests:
+          - accepted_values:
+              config:
+                severity: warn
+              arguments:
+                values: ['New', 'Existing', 'Loyal', 'All']

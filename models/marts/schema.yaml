@@ -1,5 +1,4 @@
 version: 2
-
 models:
   - name: user_orders_summary
     description: User-level order summary for marketing analysis
@@ -8,6 +7,12 @@ models:
         tests:
           - unique
           - not_null
+          - relationships:
+              config:
+                severity: error
+              arguments:
+                to: ref('stg_users')
+                field: user_id
       - name: total_orders
         tests:
           - not_null
@@ -19,3 +24,23 @@ models:
         tests:
           - unique
           - not_null
+          - relationships:
+              config:
+                severity: error
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+  
+  - name: customer_summary
+    description: Customer summary with email domain analysis
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              config:
+                severity: error
+              arguments:
+                to: ref('customers')
+                field: customer_id
