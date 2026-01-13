@@ -9,9 +9,18 @@ models:
         tests:
           - unique
           - not_null
+      - name: age
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 150
       - name: email
         tests:
           - not_null
+          - dbt_utils.expression_is_true:
+              expression: "LIKE '%@%'"
+              config:
+                severity: warn
 
   - name: stg_order_items
     description: Cleaned and standardized order items data
@@ -86,6 +95,8 @@ models:
         tests:
           - unique
           - not_null
+          - dbt_utils.expression_is_true:
+              expression: "> 0"
       
       - name: user_id
         description: Foreign key to users
@@ -97,3 +108,10 @@ models:
               arguments:
                 to: ref('stg_users')
                 field: user_id
+      - name: order_amount
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 1000000
