@@ -1,0 +1,1022 @@
+﻿=== core_compile_cold_iter1.log
+12:52:59  Running with dbt=1.11.11
+12:53:00  Registered adapter: snowflake=1.11.5
+12:53:00  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:53:01  Found 4 models, 4 data tests, 2 sources, 536 macros
+12:53:01  
+12:53:01  Concurrency: 4 threads (target='dev')
+12:53:01  
+=== core_compile_cold_iter2.log
+12:55:29  Running with dbt=1.11.11
+12:55:30  Registered adapter: snowflake=1.11.5
+12:55:30  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:55:31  Found 4 models, 4 data tests, 2 sources, 536 macros
+12:55:31  
+12:55:31  Concurrency: 4 threads (target='dev')
+12:55:31  
+=== core_compile_cold_iter3.log
+12:57:57  Running with dbt=1.11.11
+12:57:58  Registered adapter: snowflake=1.11.5
+12:57:58  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:57:59  Found 4 models, 4 data tests, 2 sources, 536 macros
+12:57:59  
+12:57:59  Concurrency: 4 threads (target='dev')
+12:57:59  
+=== core_compile_cold_iter4.log
+13:00:25  Running with dbt=1.11.11
+13:00:26  Registered adapter: snowflake=1.11.5
+13:00:26  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:00:27  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:00:27  
+13:00:27  Concurrency: 4 threads (target='dev')
+13:00:27  
+=== core_compile_cold_iter5.log
+13:02:53  Running with dbt=1.11.11
+13:02:54  Registered adapter: snowflake=1.11.5
+13:02:55  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:02:56  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:02:56  
+13:02:56  Concurrency: 4 threads (target='dev')
+13:02:56  
+=== core_compile_warm_iter1.log
+13:04:19  Running with dbt=1.11.11
+13:04:20  Registered adapter: snowflake=1.11.5
+13:04:20  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:04:20  
+13:04:20  Concurrency: 4 threads (target='dev')
+13:04:20  
+=== core_compile_warm_iter2.log
+13:04:26  Running with dbt=1.11.11
+13:04:27  Registered adapter: snowflake=1.11.5
+13:04:27  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:04:27  
+13:04:27  Concurrency: 4 threads (target='dev')
+13:04:27  
+=== core_compile_warm_iter3.log
+13:04:33  Running with dbt=1.11.11
+13:04:33  Registered adapter: snowflake=1.11.5
+13:04:34  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:04:34  
+13:04:34  Concurrency: 4 threads (target='dev')
+13:04:34  
+=== core_compile_warm_iter4.log
+13:04:39  Running with dbt=1.11.11
+13:04:40  Registered adapter: snowflake=1.11.5
+13:04:41  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:04:41  
+13:04:41  Concurrency: 4 threads (target='dev')
+13:04:41  
+=== core_compile_warm_iter5.log
+13:04:46  Running with dbt=1.11.11
+13:04:46  Registered adapter: snowflake=1.11.5
+13:04:47  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:04:47  
+13:04:47  Concurrency: 4 threads (target='dev')
+13:04:47  
+=== core_docs_generate_warm_iter1.log
+13:34:34  Running with dbt=1.11.11
+13:34:35  Registered adapter: snowflake=1.11.5
+13:34:36  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:34:36  
+13:34:36  Concurrency: 4 threads (target='dev')
+13:34:36  
+13:34:38  Building catalog
+13:34:41  Catalog written to C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\catalog.json
+=== core_docs_generate_warm_iter2.log
+13:34:45  Running with dbt=1.11.11
+13:34:46  Registered adapter: snowflake=1.11.5
+13:34:46  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:34:46  
+13:34:46  Concurrency: 4 threads (target='dev')
+13:34:46  
+13:34:48  Building catalog
+13:34:51  Catalog written to C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\catalog.json
+=== core_docs_generate_warm_iter3.log
+13:34:55  Running with dbt=1.11.11
+13:34:56  Registered adapter: snowflake=1.11.5
+13:34:56  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:34:56  
+13:34:56  Concurrency: 4 threads (target='dev')
+13:34:56  
+13:34:58  Building catalog
+13:35:03  Catalog written to C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\catalog.json
+=== core_parse_cold_iter1.log
+12:40:16  Running with dbt=1.11.11
+12:40:16  Registered adapter: snowflake=1.11.5
+12:40:17  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:40:18  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_cold_iter2.log
+12:42:42  Running with dbt=1.11.11
+12:42:43  Registered adapter: snowflake=1.11.5
+12:42:43  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:42:44  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_cold_iter3.log
+12:45:09  Running with dbt=1.11.11
+12:45:09  Registered adapter: snowflake=1.11.5
+12:45:10  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:45:11  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_cold_iter4.log
+12:47:36  Running with dbt=1.11.11
+12:47:37  Registered adapter: snowflake=1.11.5
+12:47:37  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:47:38  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_cold_iter5.log
+12:50:02  Running with dbt=1.11.11
+12:50:03  Registered adapter: snowflake=1.11.5
+12:50:03  Unable to do partial parsing because saved manifest not found. Starting full parse.
+12:50:04  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_warm_iter1.log
+12:51:24  Running with dbt=1.11.11
+12:51:24  Registered adapter: snowflake=1.11.5
+12:51:25  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_warm_iter2.log
+12:51:29  Running with dbt=1.11.11
+12:51:29  Registered adapter: snowflake=1.11.5
+12:51:30  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_warm_iter3.log
+12:51:34  Running with dbt=1.11.11
+12:51:35  Registered adapter: snowflake=1.11.5
+12:51:35  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_warm_iter4.log
+12:51:39  Running with dbt=1.11.11
+12:51:40  Registered adapter: snowflake=1.11.5
+12:51:40  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_parse_warm_iter5.log
+12:51:44  Running with dbt=1.11.11
+12:51:45  Registered adapter: snowflake=1.11.5
+12:51:45  Performance info: C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\target_core\perf_info.json
+=== core_run_cold_iter1.log
+13:06:03  Running with dbt=1.11.11
+13:06:03  Registered adapter: snowflake=1.11.5
+13:06:04  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:06:05  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:06:05  
+13:06:05  Concurrency: 4 threads (target='dev')
+13:06:05  
+13:06:08  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:06:08  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:06:08  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.91s]
+13:06:08  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.91s]
+13:06:08  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:06:08  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:06:13  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 4.21s]
+13:06:13  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 4.24s]
+13:06:14  
+13:06:14  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 9.76 seconds (9.76s).
+13:06:14  
+13:06:14  Completed successfully
+13:06:14  
+13:06:14  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_cold_iter2.log
+13:08:42  Running with dbt=1.11.11
+13:08:43  Registered adapter: snowflake=1.11.5
+13:08:43  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:08:44  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:08:44  
+13:08:44  Concurrency: 4 threads (target='dev')
+13:08:44  
+13:08:47  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:08:47  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:08:48  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.81s]
+13:08:48  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.81s]
+13:08:48  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:08:48  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:08:49  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.75s]
+13:08:49  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.80s]
+13:08:51  
+13:08:51  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 7.24 seconds (7.24s).
+13:08:51  
+13:08:51  Completed successfully
+13:08:51  
+13:08:51  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_cold_iter3.log
+13:11:20  Running with dbt=1.11.11
+13:11:20  Registered adapter: snowflake=1.11.5
+13:11:21  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:11:22  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:11:22  
+13:11:22  Concurrency: 4 threads (target='dev')
+13:11:22  
+13:11:24  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:11:24  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:11:25  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.82s]
+13:11:25  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:11:25  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:11:25  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 1.55s]
+13:11:26  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.75s]
+13:11:26  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.78s]
+13:11:28  
+13:11:28  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 6.48 seconds (6.48s).
+13:11:28  
+13:11:28  Completed successfully
+13:11:28  
+13:11:28  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_cold_iter4.log
+13:13:57  Running with dbt=1.11.11
+13:13:58  Registered adapter: snowflake=1.11.5
+13:13:58  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:13:59  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:13:59  
+13:13:59  Concurrency: 4 threads (target='dev')
+13:13:59  
+13:14:02  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:14:02  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:14:03  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.93s]
+13:14:03  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.93s]
+13:14:03  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:14:03  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:14:05  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.73s]
+13:14:05  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.78s]
+13:14:06  
+13:14:06  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 7.59 seconds (7.59s).
+13:14:06  
+13:14:06  Completed successfully
+13:14:06  
+13:14:06  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_cold_iter5.log
+13:16:34  Running with dbt=1.11.11
+13:16:35  Registered adapter: snowflake=1.11.5
+13:16:36  Unable to do partial parsing because saved manifest not found. Starting full parse.
+13:16:36  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:16:36  
+13:16:36  Concurrency: 4 threads (target='dev')
+13:16:36  
+13:16:39  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:16:39  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:16:40  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 1.47s]
+13:16:40  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 1.48s]
+13:16:40  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:16:40  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:16:42  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.73s]
+13:16:42  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.79s]
+13:16:44  
+13:16:44  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 7.12 seconds (7.12s).
+13:16:44  
+13:16:44  Completed successfully
+13:16:44  
+13:16:44  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_warm_iter1.log
+13:18:16  Running with dbt=1.11.11
+13:18:16  Registered adapter: snowflake=1.11.5
+13:18:17  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:18:17  
+13:18:17  Concurrency: 4 threads (target='dev')
+13:18:17  
+13:18:18  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:18:18  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:18:19  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.85s]
+13:18:19  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:18:19  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:18:19  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.87s]
+13:18:20  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.06s]
+13:18:20  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.07s]
+13:18:22  
+13:18:22  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 5.17 seconds (5.17s).
+13:18:22  
+13:18:22  Completed successfully
+13:18:22  
+13:18:22  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_warm_iter2.log
+13:18:28  Running with dbt=1.11.11
+13:18:29  Registered adapter: snowflake=1.11.5
+13:18:30  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:18:30  
+13:18:30  Concurrency: 4 threads (target='dev')
+13:18:30  
+13:18:31  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:18:31  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:18:32  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.83s]
+13:18:32  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.85s]
+13:18:32  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:18:32  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:18:33  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.11s]
+13:18:34  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.33s]
+13:18:35  
+13:18:35  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 5.47 seconds (5.47s).
+13:18:35  
+13:18:35  Completed successfully
+13:18:35  
+13:18:35  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_warm_iter3.log
+13:18:42  Running with dbt=1.11.11
+13:18:42  Registered adapter: snowflake=1.11.5
+13:18:43  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:18:43  
+13:18:43  Concurrency: 4 threads (target='dev')
+13:18:43  
+13:18:45  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:18:45  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:18:46  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.81s]
+13:18:46  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.81s]
+13:18:46  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:18:46  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:18:47  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.14s]
+13:18:47  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.32s]
+13:18:49  
+13:18:49  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 5.96 seconds (5.96s).
+13:18:49  
+13:18:49  Completed successfully
+13:18:49  
+13:18:49  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_warm_iter4.log
+13:18:55  Running with dbt=1.11.11
+13:18:56  Registered adapter: snowflake=1.11.5
+13:18:57  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:18:57  
+13:18:57  Concurrency: 4 threads (target='dev')
+13:18:57  
+13:18:58  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:18:58  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:18:59  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.81s]
+13:18:59  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:18:59  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:18:59  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.84s]
+13:19:00  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.21s]
+13:19:00  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.22s]
+13:19:02  
+13:19:02  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 5.33 seconds (5.33s).
+13:19:02  
+13:19:02  Completed successfully
+13:19:02  
+13:19:02  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_run_warm_iter5.log
+13:19:08  Running with dbt=1.11.11
+13:19:09  Registered adapter: snowflake=1.11.5
+13:19:10  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:19:10  
+13:19:10  Concurrency: 4 threads (target='dev')
+13:19:10  
+13:19:11  1 of 4 START sql view model dbt_learning.stg_customers ......................... [RUN]
+13:19:11  2 of 4 START sql view model dbt_learning.stg_sales ............................. [RUN]
+13:19:12  1 of 4 OK created sql view model dbt_learning.stg_customers .................... [SUCCESS 1 in 0.87s]
+13:19:12  2 of 4 OK created sql view model dbt_learning.stg_sales ........................ [SUCCESS 1 in 0.88s]
+13:19:12  3 of 4 START sql table model dbt_learning.fct_monthly_sales .................... [RUN]
+13:19:12  4 of 4 START sql table model dbt_learning.fct_sales_summary .................... [RUN]
+13:19:13  4 of 4 OK created sql table model dbt_learning.fct_sales_summary ............... [SUCCESS 18 in 1.19s]
+13:19:14  3 of 4 OK created sql table model dbt_learning.fct_monthly_sales ............... [SUCCESS 66 in 1.37s]
+13:19:15  
+13:19:15  Finished running 2 table models, 2 view models in 0 hours 0 minutes and 5.50 seconds (5.50s).
+13:19:15  
+13:19:15  Completed successfully
+13:19:15  
+13:19:15  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_cold_iter1.log
+13:20:45  Running with dbt=1.11.11
+13:20:46  Registered adapter: snowflake=1.11.5
+13:20:46  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:20:46  
+13:20:46  Concurrency: 4 threads (target='dev')
+13:20:46  
+13:20:47  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:20:47  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:20:47  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:20:47  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:20:48  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.81s]
+13:20:48  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.83s]
+13:20:48  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.83s]
+13:20:48  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.88s]
+13:20:49  
+13:20:49  Finished running 4 data tests in 0 hours 0 minutes and 3.18 seconds (3.18s).
+13:20:49  
+13:20:49  Completed successfully
+13:20:49  
+13:20:49  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_cold_iter2.log
+13:23:31  Running with dbt=1.11.11
+13:23:32  Registered adapter: snowflake=1.11.5
+13:23:33  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:23:33  
+13:23:33  Concurrency: 4 threads (target='dev')
+13:23:33  
+13:23:34  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:23:34  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:23:34  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:23:34  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:23:34  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.77s]
+13:23:34  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.78s]
+13:23:34  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.78s]
+13:23:34  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.78s]
+13:23:36  
+13:23:36  Finished running 4 data tests in 0 hours 0 minutes and 3.12 seconds (3.12s).
+13:23:36  
+13:23:36  Completed successfully
+13:23:36  
+13:23:36  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_cold_iter3.log
+13:26:17  Running with dbt=1.11.11
+13:26:18  Registered adapter: snowflake=1.11.5
+13:26:18  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:26:18  
+13:26:18  Concurrency: 4 threads (target='dev')
+13:26:18  
+13:26:19  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:26:19  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:26:19  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:26:19  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:26:20  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.74s]
+13:26:20  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.76s]
+13:26:20  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.76s]
+13:26:20  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.76s]
+13:26:22  
+13:26:22  Finished running 4 data tests in 0 hours 0 minutes and 3.14 seconds (3.14s).
+13:26:22  
+13:26:22  Completed successfully
+13:26:22  
+13:26:22  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_cold_iter4.log
+13:29:04  Running with dbt=1.11.11
+13:29:05  Registered adapter: snowflake=1.11.5
+13:29:06  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:29:06  
+13:29:06  Concurrency: 4 threads (target='dev')
+13:29:06  
+13:29:06  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:29:06  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:29:06  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:29:06  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:29:07  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.77s]
+13:29:07  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.77s]
+13:29:07  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.77s]
+13:29:07  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.78s]
+13:29:09  
+13:29:09  Finished running 4 data tests in 0 hours 0 minutes and 3.08 seconds (3.08s).
+13:29:09  
+13:29:09  Completed successfully
+13:29:09  
+13:29:09  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_cold_iter5.log
+13:31:51  Running with dbt=1.11.11
+13:31:52  Registered adapter: snowflake=1.11.5
+13:31:53  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:31:53  
+13:31:53  Concurrency: 4 threads (target='dev')
+13:31:53  
+13:31:54  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:31:54  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:31:54  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:31:54  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:31:54  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.76s]
+13:31:54  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.76s]
+13:31:54  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.77s]
+13:31:54  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.78s]
+13:31:56  
+13:31:56  Finished running 4 data tests in 0 hours 0 minutes and 3.09 seconds (3.09s).
+13:31:56  
+13:31:56  Completed successfully
+13:31:56  
+13:31:56  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_warm_iter1.log
+13:33:38  Running with dbt=1.11.11
+13:33:39  Registered adapter: snowflake=1.11.5
+13:33:40  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:33:40  
+13:33:40  Concurrency: 4 threads (target='dev')
+13:33:40  
+13:33:40  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:33:40  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:33:40  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:33:40  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:33:41  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.75s]
+13:33:41  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.76s]
+13:33:41  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.77s]
+13:33:41  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.77s]
+13:33:43  
+13:33:43  Finished running 4 data tests in 0 hours 0 minutes and 3.09 seconds (3.09s).
+13:33:43  
+13:33:43  Completed successfully
+13:33:43  
+13:33:43  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_warm_iter2.log
+13:33:47  Running with dbt=1.11.11
+13:33:48  Registered adapter: snowflake=1.11.5
+13:33:48  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:33:48  
+13:33:48  Concurrency: 4 threads (target='dev')
+13:33:48  
+13:33:49  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:33:49  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:33:49  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:33:49  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:33:50  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.76s]
+13:33:50  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.76s]
+13:33:50  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.76s]
+13:33:50  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.77s]
+13:33:52  
+13:33:52  Finished running 4 data tests in 0 hours 0 minutes and 3.04 seconds (3.04s).
+13:33:52  
+13:33:52  Completed successfully
+13:33:52  
+13:33:52  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_warm_iter3.log
+13:33:56  Running with dbt=1.11.11
+13:33:57  Registered adapter: snowflake=1.11.5
+13:33:57  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:33:57  
+13:33:57  Concurrency: 4 threads (target='dev')
+13:33:57  
+13:33:58  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:33:58  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:33:58  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:33:58  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:33:59  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.77s]
+13:33:59  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.77s]
+13:33:59  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.77s]
+13:33:59  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.77s]
+13:34:01  
+13:34:01  Finished running 4 data tests in 0 hours 0 minutes and 3.10 seconds (3.10s).
+13:34:01  
+13:34:01  Completed successfully
+13:34:01  
+13:34:01  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_warm_iter4.log
+13:34:05  Running with dbt=1.11.11
+13:34:06  Registered adapter: snowflake=1.11.5
+13:34:06  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:34:06  
+13:34:06  Concurrency: 4 threads (target='dev')
+13:34:06  
+13:34:07  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:34:07  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:34:07  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:34:07  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:34:08  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.77s]
+13:34:08  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.79s]
+13:34:08  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.79s]
+13:34:08  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.79s]
+13:34:10  
+13:34:10  Finished running 4 data tests in 0 hours 0 minutes and 3.11 seconds (3.11s).
+13:34:10  
+13:34:10  Completed successfully
+13:34:10  
+13:34:10  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== core_test_warm_iter5.log
+13:34:14  Running with dbt=1.11.11
+13:34:15  Registered adapter: snowflake=1.11.5
+13:34:16  Found 4 models, 4 data tests, 2 sources, 536 macros
+13:34:16  
+13:34:16  Concurrency: 4 threads (target='dev')
+13:34:16  
+13:34:16  1 of 4 START test source_not_null_raw_raw_customers_customer_id ................ [RUN]
+13:34:16  2 of 4 START test source_not_null_raw_raw_sales_transaction_id ................. [RUN]
+13:34:16  3 of 4 START test source_unique_raw_raw_customers_customer_id .................. [RUN]
+13:34:16  4 of 4 START test source_unique_raw_raw_sales_transaction_id ................... [RUN]
+13:34:17  4 of 4 PASS source_unique_raw_raw_sales_transaction_id ......................... [PASS in 0.75s]
+13:34:17  1 of 4 PASS source_not_null_raw_raw_customers_customer_id ...................... [PASS in 0.76s]
+13:34:17  3 of 4 PASS source_unique_raw_raw_customers_customer_id ........................ [PASS in 0.76s]
+13:34:17  2 of 4 PASS source_not_null_raw_raw_sales_transaction_id ....................... [PASS in 0.76s]
+13:34:19  
+13:34:19  Finished running 4 data tests in 0 hours 0 minutes and 3.05 seconds (3.05s).
+13:34:19  
+13:34:19  Completed successfully
+13:34:19  
+13:34:19  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+=== fusion_compile_cold_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.1s]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_cold_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.2s]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_cold_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [761ms]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_cold_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [841ms]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_cold_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.0s]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_warm_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [709ms]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_warm_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [824ms]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_warm_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.1s]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_warm_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [907ms]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_compile_warm_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [814ms]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
+=== fusion_docs_generate_warm_iter1.log
+dbt.exe : 
+発生場所 C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\evidence\20260612\01_functions.ps1:52 文字:9
++         & $cmdExe docs generate --target-path $TargetPath *>&1 | Tee- ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+=================== Errors and Warnings ====================
+[warning] [DocsGenerateWarning (dbt1705)]: `dbt docs generate` is not supported. Use `dbt compile --write-cata
+log` to write catalog.json. To host docs locally, use the dbt Core index.html with catalog.json and manifest.j
+son in the same directory: https://github.com/dbt-labs/dbt-core/blob/main/core/dbt/task/docs/index.html
+
+==================== Execution Summary =====================
+Finished 'docs' with 1 warning [515ms]
+=== fusion_docs_generate_warm_iter2.log
+dbt.exe : 
+発生場所 C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\evidence\20260612\01_functions.ps1:52 文字:9
++         & $cmdExe docs generate --target-path $TargetPath *>&1 | Tee- ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+=================== Errors and Warnings ====================
+[warning] [DocsGenerateWarning (dbt1705)]: `dbt docs generate` is not supported. Use `dbt compile --write-cata
+log` to write catalog.json. To host docs locally, use the dbt Core index.html with catalog.json and manifest.j
+son in the same directory: https://github.com/dbt-labs/dbt-core/blob/main/core/dbt/task/docs/index.html
+
+==================== Execution Summary =====================
+Finished 'docs' with 1 warning [506ms]
+=== fusion_docs_generate_warm_iter3.log
+dbt.exe : 
+発生場所 C:\Users\saori.sato\Documents\自主学習\dbt_learning_snowflake\evidence\20260612\01_functions.ps1:52 文字:9
++         & $cmdExe docs generate --target-path $TargetPath *>&1 | Tee- ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+=================== Errors and Warnings ====================
+[warning] [DocsGenerateWarning (dbt1705)]: `dbt docs generate` is not supported. Use `dbt compile --write-cata
+log` to write catalog.json. To host docs locally, use the dbt Core index.html with catalog.json and manifest.j
+son in the same directory: https://github.com/dbt-labs/dbt-core/blob/main/core/dbt/task/docs/index.html
+
+==================== Execution Summary =====================
+Finished 'docs' with 1 warning [615ms]
+=== fusion_parse_cold_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [1.2s]
+=== fusion_parse_cold_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [1.4s]
+=== fusion_parse_cold_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [2.0s]
+=== fusion_parse_cold_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [736ms]
+=== fusion_parse_cold_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [815ms]
+=== fusion_parse_warm_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [628ms]
+=== fusion_parse_warm_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [1.2s]
+=== fusion_parse_warm_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [657ms]
+=== fusion_parse_warm_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [619ms]
+=== fusion_parse_warm_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [1.2s]
+=== fusion_run_cold_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.82s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.13s] model dbt_learning.stg_sales (view)
+ Succeeded [  1.27s] model dbt_learning.fct_monthly_sales (table)
+ Succeeded [  1.28s] model dbt_learning.fct_sales_summary (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [4.3s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_cold_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.76s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.73s] model dbt_learning.stg_sales (view)
+ Succeeded [  1.28s] model dbt_learning.fct_sales_summary (table)
+ Succeeded [  1.36s] model dbt_learning.fct_monthly_sales (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [5.3s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_cold_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.50s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.71s] model dbt_learning.stg_sales (view)
+ Succeeded [  1.49s] model dbt_learning.fct_sales_summary (table)
+ Succeeded [  1.60s] model dbt_learning.fct_monthly_sales (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [5.4s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_cold_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.79s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.41s] model dbt_learning.stg_sales (view)
+ Succeeded [  1.19s] model dbt_learning.fct_sales_summary (table)
+ Succeeded [  1.26s] model dbt_learning.fct_monthly_sales (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [4.6s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_cold_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.79s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.99s] model dbt_learning.stg_sales (view)
+ Succeeded [  1.19s] model dbt_learning.fct_sales_summary (table)
+ Succeeded [  1.23s] model dbt_learning.fct_monthly_sales (table)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [5.4s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_warm_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.48s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.05s] model dbt_learning.stg_sales (view)
+ Succeeded [  0.59s] model dbt_learning.fct_monthly_sales (table)
+ Succeeded [  0.88s] model dbt_learning.fct_sales_summary (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [3.4s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_warm_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.77s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.41s] model dbt_learning.stg_sales (view)
+ Succeeded [  0.52s] model dbt_learning.fct_sales_summary (table)
+ Succeeded [  0.79s] model dbt_learning.fct_monthly_sales (table)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [3.4s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_warm_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.46s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.39s] model dbt_learning.stg_sales (view)
+ Succeeded [  0.50s] model dbt_learning.fct_monthly_sales (table)
+ Succeeded [  0.58s] model dbt_learning.fct_sales_summary (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [3.5s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_warm_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.74s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.39s] model dbt_learning.stg_sales (view)
+ Succeeded [  0.60s] model dbt_learning.fct_monthly_sales (table)
+ Succeeded [  0.82s] model dbt_learning.fct_sales_summary (table)
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [3.4s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_run_warm_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+ Succeeded [  0.72s] model dbt_learning.stg_customers (view)
+ Succeeded [  1.36s] model dbt_learning.stg_sales (view)
+ Succeeded [  0.51s] model dbt_learning.fct_sales_summary (table)
+ Succeeded [  0.60s] model dbt_learning.fct_monthly_sales (table)
+
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [3.9s]
+Processed: 4 models
+Summary: 4 total | 4 success
+=== fusion_test_cold_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.96s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  1.26s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  1.28s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  1.28s] test  source_unique_raw_raw_sales_transaction_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.7s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_cold_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.92s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  0.94s] test  source_unique_raw_raw_sales_transaction_id
+    Passed [  0.94s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  1.58s] test  source_not_null_raw_raw_sales_transaction_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.8s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_cold_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.94s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  1.23s] test  source_unique_raw_raw_sales_transaction_id
+    Passed [  1.23s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  1.23s] test  source_not_null_raw_raw_customers_customer_id
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.6s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_cold_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.95s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  0.97s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  1.56s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  1.82s] test  source_unique_raw_raw_sales_transaction_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [2.1s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_cold_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.94s] test  source_unique_raw_raw_sales_transaction_id
+    Passed [  0.94s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  1.26s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  1.54s] test  source_not_null_raw_raw_sales_transaction_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.9s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_warm_iter1.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.92s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  0.95s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  1.21s] test  source_unique_raw_raw_sales_transaction_id
+    Passed [  1.22s] test  source_not_null_raw_raw_customers_customer_id
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.6s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_warm_iter2.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.92s] test  source_unique_raw_raw_sales_transaction_id
+    Passed [  0.92s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  1.19s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  1.20s] test  source_not_null_raw_raw_customers_customer_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.6s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_warm_iter3.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.96s] test  source_unique_raw_raw_sales_transaction_id
+    Passed [  1.21s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  1.22s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  1.22s] test  source_unique_raw_raw_customers_customer_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.6s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_warm_iter4.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.92s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  0.92s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  0.92s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  1.22s] test  source_unique_raw_raw_sales_transaction_id
+New version available 2.0.0-preview.190 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.7s]
+Processed: 4 tests
+Summary: 4 total | 4 success
+=== fusion_test_warm_iter5.log
+dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+    Passed [  0.93s] test  source_unique_raw_raw_customers_customer_id
+    Passed [  0.94s] test  source_not_null_raw_raw_sales_transaction_id
+    Passed [  1.21s] test  source_not_null_raw_raw_customers_customer_id
+    Passed [  1.21s] test  source_unique_raw_raw_sales_transaction_id
+
+==================== Execution Summary =====================
+Finished 'test' successfully for target 'dev' [1.6s]
+Processed: 4 tests
+Summary: 4 total | 4 success

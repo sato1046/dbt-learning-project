@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Snowflake上の生データ（dbt_learning スキーマ）"
+    database: dbt_learning
+    schema: dbt_learning
+    tables:
+      - name: raw_customers
+        description: "顧客マスタ"
+        columns:
+          - name: customer_id
+            description: "顧客ID（主キー）"
+            tests:
+              - unique
+              - not_null
+          - name: first_name
+            description: "名"
+          - name: last_name
+            description: "姓"
+          - name: email
+            description: "メールアドレス"
+
+      - name: raw_sales
+        description: "売上トランザクション"
+        columns:
+          - name: transaction_id
+            description: "取引ID（主キー）"
+            tests:
+              - unique
+              - not_null
+          - name: order_date
+            description: "注文日（文字列 YYYY-MM-DD）"
+          - name: channel
+            description: "販売チャネル"
+          - name: customer_segment
+            description: "顧客セグメント"
+          - name: product_category
+            description: "商品カテゴリ"
+          - name: amount
+            description: "売上金額"

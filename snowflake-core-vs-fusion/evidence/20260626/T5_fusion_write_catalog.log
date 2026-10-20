@@ -1,0 +1,14 @@
+﻿dbt-fusion 2.0.0-preview.183
+   Loading ~/.dbt/profiles.yml
+Preparing to write catalog.json
+[Non-critical] Issue fetching catalog for schema 'dbt_learning.dbt_learning': [Snowflake] 390913 (08004): Your free trial has ended and all of your virtual warehouses have been suspended. Add billing information in the Snowflake web UI to continue using the full set of Snowflake features. [466e5967-1f87-42f1-8362-58cec8580b2a]
+(in :2:29)
+Fetched full catalog.json results
+Encountered some issues building catalog.json, these did not affect job execution
+Successfully wrote catalog.json
+New version available 2.0.0-preview.203 (run `dbt system update`)
+
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [7.9s]
+Processed: 4 models | 4 tests
+Summary: 8 total | 8 success
